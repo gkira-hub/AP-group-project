@@ -6,7 +6,7 @@ window.onload = function () {
 		var newNode = document.createElement("img");
 		var oldsrc=this.src;
 		var parts=oldsrc.split("/");
-		newNode.src="C://Users//gur21//Desktop//images//" + parts[parts.length-1];
+		newNode.src="images//" + parts[parts.length-1];
 		newNode.style="border:solid 1px black;";
 		newNode.className='bigImg';
 		this.parentNode.appendChild(newNode);
