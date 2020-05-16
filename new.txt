@@ -1,6 +1,9 @@
 ﻿PROJECT DETAILS:-
-Name : Keshav Singh Nohwar 
-             Gurkirat Singh
-Roll no : 11912036
-              11912048
-Class : IT
+              ::::::::::::::::::::::::::::::::::::::::::::::::
+              :: Group Members       ::  Roll No. :: Branch ::               : 
+              ::::::::::::::::::::::::::::::::::::::::::::::::
+              :: Keshav Singh Nohwar :: 11912036  ::  IT    ::
+              :: Gurkirat Singh      :: 11912048  ::  IT    ::
+              ::::::::::::::::::::::::::::::::::::::::::::::::
+              
+              project=chapter 6 project 3
