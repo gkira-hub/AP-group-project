@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+   <meta charset="utf-8">
+   <title>Chapter 6</title>
+   <link rel="stylesheet" href="reset.css" />
+   <link rel="stylesheet" href="ap project.css" />
+</head>
+<body>
+<center>
+	<div id="header">
+	<hr size="3px" noshade color="#95BEF0">
+		<header>
+			<strong>
+				<h2><a href="file:///C:/Users/gur21/Desktop/new.txt"> THE ART GALLERY PROJECT</a></h2>
+			</strong></header>
+	<hr size="3px" noshade color="#95BEF0">
+	</div>
+</center>
+<form method="get" action=>
+<div id="searchBox">
+   <input type="search" name="search" placeholder="Search titles" /><input type="submit" value="Search" />
+</div>   
+<div id="settingsBox">
+   <select name="actions">
+      <option value="0">Actions</option>
+      <option value="1">Archive</option>
+      <option value="2">Delete</option>   
+   </select>
+   <input type="submit" value="Apply" />
+   <select name="filter">
+      <option value="0">Genre</option>
+      <option value="1">Baroque</option>
+      <option value="2">Mannerism</option>   
+      <option value="3">Neo-Classicism</option>       
+      <option value="4">Realism</option>   
+      <option value="5">Romanticism</option>    
+   </select>
+   <input type="submit" value="Filter" />
+</div>
+<div id="artistBox">
+   <table>
+      <caption>Paintings</caption>
+      <thead>
+         <tr>
+            <th colspan="2"></th>
+            <th scope="col">Title</th>
+            <th scope="col">Artist</th>    
+            <th scope="col">Year</th> 
+            <th scope="col">Genre</th> 
+            <th></th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td><input type="checkbox" name="index[]" value="10" /></td>
+            <td><img src="C:\Users\gur21\Desktop\images\1.jpeg" alt="Death of Marat" class="artThumb"/></td>
+            <td><em>Death of Marat</em></td>
+            <td>David, Jacques-Louis </td>           
+            <td>1793</td>
+            <td>Romanticism</td>  
+             <td><button><a href="#"><img src="https://raw.githubusercontent.com/ALBPROG/Fundamentals-of-Web-Development-Solutions/master/Chapter%206%20-%20Projects%201%2C3/Chapter%206%20-%20Project%203/images/edit16.png" alt="edit" /> Edit</a></button></td>
+         </tr>
+         <tr>
+            <td><input type="checkbox" name="index[]" value="20"/></td>
+            <td><img src="C:\Users\gur21\Desktop\images\2.jpeg" alt="Portrait of Eleanor of Toledo" class="artThumb" /></td>
+            <td><em>Portrait of Eleanor of Toledo</em></td>
+            <td>Bronzino, Agnolo </td>           
+            <td>1545</td>
+            <td>Mannerism</td>  
+             <td><button><a href="#"><img src="https://raw.githubusercontent.com/ALBPROG/Fundamentals-of-Web-Development-Solutions/master/Chapter%206%20-%20Projects%201%2C3/Chapter%206%20-%20Project%203/images/edit16.png" alt="edit" /> Edit</a></button></td>
+         </tr>         
+         <tr>
+            <td><input type="checkbox" name="index[]" value="30"/></td>
+            <td><img src="C:\Users\gur21\Desktop\images\3.jpeg" class="artThumb" alt="Liberty Leading the People" /></td>
+            <td><em>Liberty Leading the People</em></td>
+            <td>Delacroix, Eugene    </td>           
+            <td>1830</td>
+            <td>Romanticism</td>  
+             <td><button><a href="#"><img src="https://raw.githubusercontent.com/ALBPROG/Fundamentals-of-Web-Development-Solutions/master/Chapter%206%20-%20Projects%201%2C3/Chapter%206%20-%20Project%203/images/edit16.png" alt="edit" /> Edit</a></button></td>
+         </tr>   
+         <tr>
+            <td><input type="checkbox" name="index[]" value="40"/></td>
+            <td><img src="C:\Users\gur21\Desktop\images\4.jpeg" class="artThumb" alt="Arrangement in Grey and Black" /></td>
+            <td><em>Arrangement in Grey and Black</em></td>
+            <td>Whistler, James Abbott    </td>           
+            <td>1871</td>
+            <td>Realism</td>  
+             <td><button><a href="#"><img src="https://raw.githubusercontent.com/ALBPROG/Fundamentals-of-Web-Development-Solutions/master/Chapter%206%20-%20Projects%201%2C3/Chapter%206%20-%20Project%203/images/edit16.png" alt="edit" /> Edit</a></button></td>
+         </tr>  
+         <tr>
+            <td><input type="checkbox" name="index[]" value="50"/></td>
+            <td><img src="C:\Users\gur21\Desktop\images\5.jpeg" class="artThumb" alt="Mademoiselle Caroline Riviere" /></td>
+            <td><em>Mademoiselle Caroline Riviere</em></td>
+            <td>Ingres, Jean-Auguste</td>           
+            <td>1806</td>
+            <td>Neo-Classicism</td>  
+             <td><button><a href="#"><img src="https://raw.githubusercontent.com/ALBPROG/Fundamentals-of-Web-Development-Solutions/master/Chapter%206%20-%20Projects%201%2C3/Chapter%206%20-%20Project%203/images/edit16.png" alt="edit" /> Edit</a></button></td>
+         </tr>  
+      </tbody>
+   </table>
+</div> 
+	<hr size="3px" noshade color="#95BEF0">
+</form>
+<script type="text/javascript" src="ap project.js"></script>
+</body>
+</html>
